@@ -1,6 +1,11 @@
+name: Google authentification
+
+on: 
+  release:
+  types: [published]
 jobs:
   job_id:
-    # ...
+    
 
     steps:
     - uses: 'actions/checkout@v2'
