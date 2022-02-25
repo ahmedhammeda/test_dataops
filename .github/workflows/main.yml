@@ -1,9 +1,11 @@
 name: Google authentification
 
 on: 'push'
+
 jobs:
   job_id: 
-    
+    name: deploy to GCP
+    runs-on: ubuntu-latest
 
     steps:
     - uses: 'actions/checkout@v2'
