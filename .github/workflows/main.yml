@@ -2,7 +2,7 @@ name: Google authentification
 
 on: 
   release:
-  types: [published]
+    types: [published]
 jobs:
   job_id:
     
